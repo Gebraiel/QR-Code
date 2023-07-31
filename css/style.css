@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding:0px;
+
+  }
+  .container {
+    max-width:1440px;
+    height:100vh;
+    background-color:hsl(212, 45%, 89%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .container .card{
+    padding:15px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width:250px;
+    height: 405px;
+    box-shadow: -4px 4px hsl(212, 45%, 87%);
+  }
+  .container .card .qrcode{
+    width:100%;
+    border-radius: 10px;
+    margin: auto;
+  }
+  .container .card .text{
+    font-family: "Outfit",sans-serif;
+    padding:0px 10px;
+    text-align: center;
+  }
+  .container .card .text h3{
+    margin:15px 0px;
+    font-weight: 700;
+  }
+  .container .card .text p{
+    font-size: 15px;
+    font-weight: 400;
+    color:hsl(220, 15%, 55%)
+  }
+
+  img{
+    width:100%;
+    border-radius: 10px;
+  }
+  @media (max-width:400px){
+    .container{
+      max-width: 375px;
+    }
+  }
